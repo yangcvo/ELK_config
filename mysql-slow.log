@@ -1,0 +1,16 @@
+# Time: 150814  8:05:38
+# User@Host: db_rw_user[db_rw_user] @  [192.168.0.207]  Id: 281241922
+# Query_time: 2.420531  Lock_time: 0.000079 Rows_sent: 0  Rows_examined: 825182
+SET timestamp=1439510738;
+SELECT click_time FROM transfer_log WHERE v_id = '866958936772761' AND a_id = '7e83e9772279b987655193900757dbaf' limit 1;
+# Time: 150814  8:05:43
+# User@Host: db_rw_user[db_rw_user] @  [192.168.0.231]  Id: 281242197
+# Query_time: 2.135928  Lock_time: 0.000106 Rows_sent: 0  Rows_examined: 651812
+SET timestamp=1439510743;
+SELECT click_time FROM transfer_log WHERE v_id = '866055525143873' AND a_id = '5a305300b12567023a7b65816ceebb4d' limit 1;
+# Time: 150814  8:05:46
+# User@Host: db_rw_user[db_rw_user] @  [192.168.0.209]  Id: 281242077
+# Query_time: 1.980980  Lock_time: 0.000079 Rows_sent: 0  Rows_examined: 651813
+SET timestamp=1439510746;
+SELECT click_time FROM transfer_log WHERE v_id = '359209111430692' AND a_id = '5a305300bdc59113789b65816ceebb4d' limit 1;
+
